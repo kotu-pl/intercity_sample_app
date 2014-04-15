@@ -35,9 +35,8 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
-gem 'intercity'
-
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'capistrano', '>= 2.15.5'
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-rails', '~> 1.1'
