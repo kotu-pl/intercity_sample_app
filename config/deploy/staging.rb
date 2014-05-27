@@ -1,2 +1,2 @@
 set :rails_env, 'staging'
-server 'myserver.com', user: 'deploy', roles: %w{web app db}
+server 'localhost', user: 'deploy', roles: %w{web app db}, ssh_options: { port: 2222 }
